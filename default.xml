@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch="git://github.com/zkgrails/"
+           review="review.source.android.com" />
+
+  <default revision="master"
+           remote="origin" />
+
+  <!-- project path="build" name="platform/build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project -->
+
+  <project path="zkgrails"    name="zkgrails/ce" />
+  <project path="zkgrails-ee" name="zkgrails/ee" />
+  <project path="zk-aspect"   name="zkgrails/aspect" />  
+</manifest>
