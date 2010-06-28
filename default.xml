@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
-           fetch="http://github.com/zkgrails/"
+           fetch="git+ssh://git@github.com:zkgrails/"
   />
 
   <default revision="master"
