@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="origin"
            fetch="git://github.com/zkgrails/"
-           review="review.source.android.com" />
+  />
 
   <default revision="master"
            remote="origin" />
