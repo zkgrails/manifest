@@ -11,7 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project -->
 
-  <project path="zkgrails"    name="zkgrails/ce" />
-  <project path="zkgrails-ee" name="zkgrails/ee" />
-  <project path="zk-aspect"   name="zkgrails/aspect" />  
+  <project path="zkgrails"    name="zkgrails" />
+  <project path="zkgrails-ee" name="zkgrails-ee" />
+  <project path="zk-aspect"   name="zk-aspect" />  
 </manifest>
