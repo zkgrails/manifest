@@ -14,4 +14,5 @@
   <project path="zkgrails"    name="zkgrails" />
   <project path="zkgrails-ee" name="zkgrails-ee" />
   <project path="zk-aspect"   name="zk-aspect" />  
+  <project path="zkgrails-hibernate" name="zkgrails-hibernate" />
 </manifest>
