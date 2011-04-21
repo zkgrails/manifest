@@ -11,9 +11,9 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
 
-  <!-- project path="zkgrails"            name="zkgrails" />
+  <project path="zkgrails"            name="zkgrails" />
   <project path="zkgrails-ee"         name="zkgrails-ee" />
   <project path="zkgrails-aspect"     name="zkgrails-aspect" />  
   <project path="zkgrails-hibernate"  name="zkgrails-hibernate"  />
-  <project path="zkgrails-codemirror" name="zkgrails-codemirror" / -->
+  <project path="zkgrails-codemirror" name="zkgrails-codemirror" />
 </manifest>
