@@ -4,15 +4,16 @@
            fetch="git+ssh://git@github.com/zkgrails/"
   />
 
-  <default revision="master"
+  <default revision="snapshot"
            remote="origin" />
 
-  <!-- project path="build" name="platform/build">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project -->
+  <project path="zkgrails-build" name="zkgrails-build">
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
 
-  <project path="zkgrails"    name="zkgrails" />
-  <project path="zkgrails-ee" name="zkgrails-ee" />
-  <project path="zk-aspect"   name="zk-aspect" />  
-  <project path="zkgrails-hibernate" name="zkgrails-hibernate" />
+  <!-- project path="zkgrails"            name="zkgrails" />
+  <project path="zkgrails-ee"         name="zkgrails-ee" />
+  <project path="zkgrails-aspect"     name="zkgrails-aspect" />  
+  <project path="zkgrails-hibernate"  name="zkgrails-hibernate"  />
+  <project path="zkgrails-codemirror" name="zkgrails-codemirror" / -->
 </manifest>
