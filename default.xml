@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="origin"
            fetch="git+ssh://git@github.com/zkgrails/"
+           review="203.158.7.11/gerrit"
   />
 
   <default revision="snapshot"
