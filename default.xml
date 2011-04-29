@@ -17,6 +17,7 @@
   <project path="zkgrails-aspect"     name="zkgrails-aspect" />  
   <project path="zkgrails-hibernate"  name="zkgrails-hibernate"  />
   <project path="zkgrails-redis"      name="zkgrails-redis"  />
+  <project path="zkgrails-mongodb"    name="zkgrails-mongodb"  />
   <project path="zkgrails-codemirror" name="zkgrails-codemirror" />
 
 </manifest>
